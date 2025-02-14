@@ -55,4 +55,5 @@ Aqui estão as principais tecnologias utilizadas no desenvolvimento deste projet
 1. Clone este repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/devbernardes/projeto-portfolio
+   
