@@ -8,8 +8,8 @@
     --cor-hover: #1E3E62;
     --fonte-primaria: 'Orbitron', sans-serif;
     --fonte-secundaria: 'Quicksand', sans-serif;
-    --menu-margin: 9.70rem;
-    --botao-largura: 120px;
+    --menu-margin: 7rem;
+    --botao-largura: 130px;
 }
 
 * {
@@ -26,17 +26,17 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 5%;
+    padding: 2% 5%;
 }
 
 .cabecalho__menu {
     display: flex;
     gap: 20px;
-    justify-content: flex-start;
-    max-width: 600px;
-    margin-left: var(--menu-margin);
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
     z-index: 100;
+    padding: 0;
 }
 
 .cabecalho__menu__link {
@@ -65,19 +65,22 @@ body {
     background-color: #ececec;
 }
 .apresentacao {
-    padding: 5% 10%;
-    gap: 82px;
+    padding: 8% 5%;
+    gap: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .apresentacao-curriculo {
-    padding: 5% 5%;
+    padding: 8% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .apresentacao__conteudo {
@@ -355,15 +358,12 @@ body.light-mode .titulo-destaque {
 
 @media (max-width: 1050px) {
     .cabecalho {
-        padding: clamp(1rem, 3vw, 5%);
+        padding: 2% 5%;
     }
 
     .cabecalho__menu {
-        justify-content: center;
-        margin-left: 0;
-        max-width: 100%;
         gap: clamp(8px, 1.5vw, 15px);
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     .cabecalho__menu__link {
