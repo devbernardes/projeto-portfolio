@@ -21,6 +21,8 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .cabecalho {
@@ -62,17 +64,17 @@ body {
     transform: scale(1.1);
     background-color: #ececec;
 }
-
 .apresentacao {
-    padding: 5% 15%;
+    padding: 5% 10%;
     gap: 82px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 .apresentacao-curriculo {
-padding: 5% 0%;
+    padding: 5% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -189,7 +191,7 @@ padding: 5% 0%;
     border-radius: 10px;
     transform: scale(2.1);
     position: relative;
-    left: 100px;
+    left: 0;
     bottom: 20px;
 }
 
@@ -199,7 +201,7 @@ padding: 5% 0%;
     border-radius: 10px;
     transform: scale(2.1);
     position: relative;
-    left: 100px;
+    left: 0;
     bottom: 20px;
 }
 
